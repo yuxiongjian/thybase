@@ -1,0 +1,7 @@
+<resources>
+  <!-- Messages IDs -->
+  <item type="id" name="BT_OK"/>
+  <item type="id" name="BT_CANCEL"/>
+  <item type="id" name="scantext"/>  
+  
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/datetime_title"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center_vertical|left"
+        android:minHeight="60dip"
+        android:paddingLeft="32dip"
+        android:paddingRight="32dip"
+        android:text="选择日期和时间"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/titleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:gravity="fill_horizontal"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/divider_strong_holo" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:calendarViewShown="false" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+ >
+
+        <TextView
+            android:id="@+id/set_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/timePicker"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="设置时间:"
+            android:textColor="@color/gray"
+            android:textSize="16dp" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/mline"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray"
+            android:gravity="center"
+
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_set"
+            style="@style/btn_default"
+            android:text="设置" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/btn_default"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            style="@style/btn_default"
+            android:text="清空" />
+    </LinearLayout>
+
+</LinearLayout>

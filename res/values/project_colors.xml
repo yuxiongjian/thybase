@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_read_only">#ff0099cc</color>
+     <color name="tabselected">#00bfff</color>
+    <color name="border_line">#ffd7dadc</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="lightblue">#B0C4DE</color>
+   <color name="trwhite">#00000000</color>
+    <color name="orangered">#ff5900</color>
+    <color name="gray">#ff666666</color>
+    <color name="yellow">#fff9bf16</color>
+    <color name="red">#ffff0000</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="readed">#ffc05500</color>
+    <color name="noread">#ff4b4b4b</color>
+    <color name="transparent01">#9000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_bold">#FF606060</color>
+    <color name="movie_name">#FF371A12</color>
+    <color name="TextColorBlack">#FF000000</color>
+    <color name="TextColorBlue">#0066CC</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="TextColorRed">#FFE26926</color>
+    <color name="TextColorGreen">#FF00FF00</color>
+    <color name="TextColorRed1">#FFFF0000</color>
+    <color name="TextColorYellow1">#FFFFFF00</color>
+    <color name="TextColorBlue1">#FF080ad3</color>
+    <color name="TextColorGreen1">#FF336619</color>
+    <color name="zzblue">#3f5c84</color>
+    <color name="zzyellow">#c06622</color>
+    <color name="zzblack">#000</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="button_unselected">#ff54acea</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="info_panel_bg">#ffeeeeee</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="traffic_data">#ff666666</color>
+    <color name="background_color">#f4f4f4</color>
+
+    <color name="deep_yellow">#FF9900</color>
+    <color name="weak_yellow">#FE9B21</color>
+    <color name="tollbar_text_color">#B1B1B1</color>
+    <color name="tbbkgray">#cccccc</color>
+    <color name="headgray">#888888</color>
+    <color name="maturetextcolor">#000000</color>
+    <color name="textbkcolor">#FFFFFF</color>
+    <color name="tablelinecolor">#0000ff</color>
+    <color name="thtext">#FFFFFF</color>
+    <color name="tabheadtxt">#0000ff</color>
+ 
+</resources>
